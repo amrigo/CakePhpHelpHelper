@@ -9,6 +9,7 @@ Copy HelpHelper into App/View/Helper directory
 2.
 In your controller :
 	public $helpers = array('Help');
+	
 3.
 In your view :
 	echo $this->Help->helpTooltip('Show some helpfull text here');
